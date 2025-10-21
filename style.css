@@ -1,10 +1,10 @@
-body {
+/* body {
   background-color: #FFFFE0; /* warna kuning cerah */
   font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
   color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
-.kartu-profil {
+/* .kartu-profil {
   width: 300px;
   margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
   padding: 20px;
@@ -14,7 +14,39 @@ body {
   text-align: center;
 }
 
-.kartu-profil img {
+/* .kartu-profil img {
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran */
+}
+.kartu-profil a {
+  display: inline-block; /* Agar bisa diatur padding/margin */
+  margin: 15px 0 10px 0;
+  padding: 8px 15px;
+  background-color: #E1306C; /* Warna Instagram */
+  color: white;
+  text-decoration: none; /* Hilangkan garis bawah */
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.kartu-profil a:hover {
+  background-color: #C13584; /* Warna agak gelap saat disentuh mouse */
+}
+
+.kartu-profil button {
+  padding: 10px 20px;
+  background-color: #3CB371; /* Warna hijau yang segar */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer; /* Kasih tanda kalau itu bisa diklik */
+  transition: all 0.3s ease;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.kartu-profil button:hover {
+  background-color: #2E8B57;
+  transform: scale(1.05); /* Sedikit membesar saat di-hover */
 }
