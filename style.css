@@ -10,11 +10,9 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 15px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* FIX: rgba 4 nilai, pake titik 0.1 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* FIX: rgba 4 nilai, pake titik 0.1 */
   text-align: center;
 }
-
-/* FIX: disamain sama HTML, jadi .kartu-profil */
 .kartu-profil img {
   width: 150px;
   border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran */
